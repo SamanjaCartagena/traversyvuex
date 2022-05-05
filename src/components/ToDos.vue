@@ -4,6 +4,7 @@
     <div class="todos">
         <div v-for="todo in allTodos" class="todo" :key="todo.index">
           {{todo.title}}</div>
+          <i class="fas fa-trash-alt"></i>
     </div>
   </div>
 </template>
